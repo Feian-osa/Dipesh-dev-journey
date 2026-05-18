@@ -1,0 +1,36 @@
+body{
+    overflow: visible;
+}
+
+
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #d44141;
+    padding: 15px 20px;
+    color: rgb(247, 255, 252);
+
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin:0;
+    padding:0;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+a:hover {
+    color:rgb(3, 240, 169);
+}

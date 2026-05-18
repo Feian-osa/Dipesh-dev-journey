@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dipesh Karki - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body >
     <!-- HEADER -->
     <header>
-        <center> 
+        <div style="text-align: center;"> 
          <h1>Dipesh Karki</h1>
             <p>✨ Designer at heart · Code explorer · Forever curious ✨</p>
-
+        </div>
             <!-- NAVIGATION -->
             <nav>
+                
                 <a href="#about">About Me</a> |
                 <a href="#hobbies">Hobbies</a> |
-                <a href="#games">Favorite Games</a>
-                <a href="#contact">Contact Me</a>
+                <a href="#games">Favorite Games</a> |
+                <a href="#contact">Contact Me</a> |
+                <a href="#abc">Contact Form</a> |
+                <a href="#blog">Blog</a> |
+
             </nav>
-        </center>
+<p style="height: 2000px; padding: 20px;">
+  Scroll down to test sticky navbar...
+</p>
     </header>
 
              <!-- MAIN CONTENT -->
@@ -33,13 +40,13 @@
                      src="avatar.jpg" 
                      alt="Dipesh Karki profile image"
                      width="150"
-                     height="150">
+                     height="250">
             </center>
         </section>
             <section class="Introduction">
                 <center>
                 <!-- INTRODUCTION -->
-                <h2>About Me</h2>
+                <h2 id="about">About Me</h2>
                 <p>Welcome to my personal webpage! I'm Dipesh Karki, a passionate designer and code explorer. This page is a glimpse into who I am, my interests, and the things that inspire me.</p>
                 </center>
             </section>
@@ -48,13 +55,13 @@
            <article>
             <center>
 
-            <h2>My Hobbies</h2>
+            <h2 id="hobbies">My Hobbies</h2>
             <ul>
                 <li>Reading</li>
                 <li>Writing</li>
                 <li>Traveling</li>
             </ul>
-<h2>Favorite games</h2>
+<h2 id="games">Favorite games</h2>
     <ul>
         <li>Table tennis</li>
         <li>Elden ring</li>
@@ -64,10 +71,39 @@
         </article>
             <aside>
                 <center>
-                <h2>Contact Me</h2>
+                <h2 id="contact">Contact Me</h2>
                 <p>Email: dcarkey0@gmail.com</p>
                 </center>
             </aside>
+            <section class="form">
+                <center>
+                <h2 id="abc">Contact Form</h2>
+                <form>
+                    <label for ="name">Name:</label>
+                    <input type="text" id="name" >
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                    <br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password">
+                    <br><br>
+                    <label for="message">Message:</label>
+                    <textarea id="message"></textarea>
+                    <br><br>
+                    <button type="submit" >Submit</button>
+
+                    <article>
+                        <center>
+                            <h2 id="blog">Blog</h2>
+                            <p>Coming soon...</p>
+                        </center>
+                    </article>
+                </form>
+
+                </center>
+
+
     </main>
 
      <!-- FOOTER -->
